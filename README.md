@@ -18,7 +18,7 @@ Install [uv](https://docs.astral.sh/uv/getting-started/installation/) from its o
       "command": "uvx",
       "args": [
         "--from",
-        "git+https://github.com/shunshi-ai/liuyao-mcp@v0.1.0",
+        "git+https://github.com/shunshi-ai/liuyao-mcp@v0.1.1",
         "shunshi-liuyao-mcp"
       ]
     }

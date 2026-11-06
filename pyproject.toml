@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "shunshi-liuyao-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "Local liuyao calculation and reference tools for MCP clients — Shunshi.AI"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -13,7 +13,8 @@ authors = [{ name = "Shunshi.AI" }]
 dependencies = [
     "mcp>=1.26,<2",
     "pydantic>=2.11,<3",
-    "lunar-python>=1.4,<2"
+    "lunar-python>=1.4,<2",
+    "tzdata>=2024.1"
 ]
 keywords = ["mcp", "mcp-server", "liuyao", "shunshi"]
 
