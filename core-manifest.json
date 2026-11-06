@@ -1,0 +1,8 @@
+{
+  "packages/core/src/shunshi_liuyao/__init__.py": "df0e37adf3937c59331e43ce88582bed6b9581a488538ebfcc204032ba4d16ab",
+  "packages/core/src/shunshi_liuyao/calendar.py": "8b0b363c5389caca14685b53911e85c7649fd2c5e74f319d8c3536c3d682de5c",
+  "packages/core/src/shunshi_liuyao/engine.py": "e6f54656d64401f18f7c25ee282b8e74024ef876ba4dca5c2c73ded827e87912",
+  "packages/core/src/shunshi_liuyao/data/bagua.json": "ba9faed334d9bafd60a64e16f148abce135a7ed0881c454115bb44c508844072",
+  "packages/core/src/shunshi_liuyao/data/gua64.json": "80f6098368fa86693dfa0c47aa6b583c32bc82300a79ffc65ff0277901bec66c",
+  "packages/core/src/shunshi_liuyao/data/najia.json": "591a1f2b2fc7e7f85c19bf650d11ee4ce0c45767eac9be10f22e726443ec1534"
+}

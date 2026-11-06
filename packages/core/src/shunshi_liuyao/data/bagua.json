@@ -1,0 +1,13 @@
+{
+  "_doc": "八经卦基础属性。lines 用三位字符串表示爻的阴阳，索引 0=初爻(下)、1=中爻、2=上爻，1=阳 0=阴。",
+  "_note": "wuxing 是卦宫五行，六亲全靠它推：卦宫五行为「我」，生我=父母、我生=子孙、克我=官鬼、我克=妻财、同我=兄弟。",
+
+  "乾": { "lines": "111", "wuxing": "金", "symbol": "☰", "nature": "天" },
+  "兑": { "lines": "110", "wuxing": "金", "symbol": "☱", "nature": "泽" },
+  "离": { "lines": "101", "wuxing": "火", "symbol": "☲", "nature": "火" },
+  "震": { "lines": "100", "wuxing": "木", "symbol": "☳", "nature": "雷" },
+  "巽": { "lines": "011", "wuxing": "木", "symbol": "☴", "nature": "风" },
+  "坎": { "lines": "010", "wuxing": "水", "symbol": "☵", "nature": "水" },
+  "艮": { "lines": "001", "wuxing": "土", "symbol": "☶", "nature": "山" },
+  "坤": { "lines": "000", "wuxing": "土", "symbol": "☷", "nature": "地" }
+}

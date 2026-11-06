@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "shunshi-liuyao-mcp"
+version = "0.1.0"
+description = "Local liuyao calculation and reference tools for MCP clients — Shunshi.AI"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "Shunshi.AI" }]
+dependencies = [
+    "mcp>=1.26,<2",
+    "pydantic>=2.11,<3",
+    "lunar-python>=1.4,<2"
+]
+keywords = ["mcp", "mcp-server", "liuyao", "shunshi"]
+
+[project.scripts]
+shunshi-liuyao-mcp = "shunshi_liuyao_mcp.server:main"
+
+[project.urls]
+Homepage = "https://shunshi.ai"
+Repository = "https://github.com/shunshi-ai/liuyao-mcp"
+Issues = "https://github.com/shunshi-ai/liuyao-mcp/issues"
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "pytest-asyncio>=0.24,<2"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/shunshi_liuyao_mcp", "packages/core/src/shunshi_liuyao"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
